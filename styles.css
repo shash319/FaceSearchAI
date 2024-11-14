@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.App  {
+    text-align: center;
+    background-color: darkblue ;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+.front{
+    position: absolute;
+    top: -3%;
+    color: aliceblue;
+    margin-bottom: 10px ;
+    padding: 90px;
+}
+  
+.front h2{
+    margin-top: -10px;
+}
+
+.front p{
+  margin-top: 15px;
+}
+  
+  #begin{
+    background-color:  color-mix(in srgb, #E80A89 60%, #F15B2A 100%);
+    width: 110px;
+    height: 40px;
+   border-radius: 40px;             
+    padding: 8px;                  
+  }
+  
+  .banner img{
+    width: 100%;
+    height: auto; 
+  
+  }
+  
+  .banner{
+    position: relative;
+  }
+  
+
+u{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.App p.nav{
+    margin-top: 10px;
+    margin-left: -110px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .App button{
+    display: flex;
+    align-items: center;
+    text-align: top;
+    height: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right:-90px;
+    margin-left: -40px;
+  }
+
+button{
+  background-color: #fff;
+  color: #000;
+}
+  
+  .App img{
+    margin-top: 1px;
+    height: 10vh;
+    width: 65px;
+    margin-left: -50px;
+  }
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .img-fluid{
+    margin-top: -39999px;
+    margin-left: 50% ;
+  }
+  .content1{
+    background-image: linear-gradient(84deg, #2d163e, #a25791);
+    margin: 80px auto;
+    padding: 80px;
+    display: flex;
+    border-radius: 40px;
+    justify-content: center;
+    border: 30px;
+    width: 50%;
+    color: #fff;
+    height: 50vh;
+  }
+
+  .content2{
+    background-image: linear-gradient(293deg, #824fcd 51%, #1327a9);;
+    margin: 80px auto;
+    padding: 80px;
+    display: flex;
+    color: #fff;
+    border-radius: 40px;
+    justify-content: center;
+    border: 30px;
+    width: 50%;
+    height: 50vh;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+/*   
+.slides{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+
+
+
+
+  .contact-us{
+    height: 80px;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: linear-gradient(225deg, #ea3628, #962571 42%, #350be5);
+    width: 400px;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 60px auto;
+    /* margin: 50px 50px; */
+    border: 0px solid black; 
+}
+
+.contact-us button{
+    color:white; 
+    font-size: 75%; 
+    border-radius: 10px;
+    background-color: darkblue;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+
+
+.bottom-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    gap: 2px;
+    padding: 8px 20px;
+    background: #37475A;
+    color: white;
+    font-size: 15px;
+  }
+  
+  footer {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 12000px;
+    margin: 40px ;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .bottom-part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #131a22;
+    color: white;
+    font-size: 15px;
+  }
+
+
+
