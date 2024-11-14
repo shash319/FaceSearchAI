@@ -16,7 +16,7 @@ img {
 
 }
 .box{
-    background-image: url("./assets/Weather-Background.jpg");
+    background-image: url("./imagez/Weather-Background.jpg");
     background-position:left;
     background-repeat: no-repeat;
     background-size: cover;
